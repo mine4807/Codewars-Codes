@@ -1,0 +1,11 @@
+int solution(int number) {
+  int toplam=0;
+  int i;
+  for(i=0;i<number;i++){
+     if(!(i % 3) || !(i % 5)){
+       toplam+=i;
+     }
+        
+  }
+    return toplam;
+}
